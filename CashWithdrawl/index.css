@@ -1,0 +1,104 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.withdraw-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background-color: #150b3e;
+  border-radius: 20px;
+  border-width: 0px;
+  height: 550px;
+  width: 400px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  margin: 15px;
+}
+
+.profile {
+  background-color: #c7d2fe;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 30px;
+  font-family: 'Roboto';
+  color: #7c3aed;
+  font-weight: bold;
+}
+
+.name {
+  font-family: 'Roboto';
+  color: #d4d2db;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 5px;
+}
+.amount-container {
+  display: flex;
+  flex-direction: column;
+}
+.balance-text {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+.amount {
+  color: #d4d2db;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+.rupees-text {
+  color: #585076;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.withdraw-heading {
+  color: #d4d2db;
+  font-weight: 600;
+  font-size: 35px;
+  align-self: flex-start;
+  margin-top: 2px;
+}
+.choose-sum {
+  color: #585076;
+  font-weight: 600;
+  align-self: flex-start;
+  margin-top: 0px;
+}
+.amount-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-top: 0px;
+  list-style-type: none;
+}
